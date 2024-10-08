@@ -78,17 +78,17 @@ body {
   line-height: 25px;
   top: 19px;
   left: 15px;
+  /* Cambiado para más espacio horizontal */
   color: #003049;
   max-width: 240px;
+  /* Limita el ancho */
   max-height: 140px;
+  /* Limita el alto */
   overflow-wrap: break-word;
+  /* Permite que el texto se ajuste */
   overflow: hidden;
-  
-  display: flex; /* Habilita flexbox */
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  /* Evita que el texto se desborde */
 }
-
 
 
 .heart {
