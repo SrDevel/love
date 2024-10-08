@@ -73,22 +73,22 @@ body {
 .text {
   position: absolute;
   font-family: 'Brush Script MT', cursive;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   line-height: 25px;
   top: 19px;
   left: 15px;
-  /* Cambiado para más espacio horizontal */
   color: #003049;
   max-width: 240px;
-  /* Limita el ancho */
   max-height: 140px;
-  /* Limita el alto */
   overflow-wrap: break-word;
-  /* Permite que el texto se ajuste */
   overflow: hidden;
-  /* Evita que el texto se desborde */
+  
+  display: flex; /* Habilita flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
+
 
 
 .heart {
